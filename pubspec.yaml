@@ -36,10 +36,23 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  # Added by Derek to demonstrate the MVVM-like architecture
+  stacked: ^3.4.1+1 # Contains Provider
+  stacked_hooks: ^0.2.3
+  stacked_services: ^1.3.0
+
+  # This is also generally useful for List/Collection operations that base dart has weaknesses in
+  collection: ^1.17.1  # Improved null handling for collections. v1.18.0 seems to have compatibility issues though
+
 dev_dependencies:
   flutter_native_splash: ^2.0.5
   flutter_test:
     sdk: flutter
+
+  # Added along with Stacked to provide code generation
+  build_runner: ^2.4.6
+  stacked_generator: ^1.5.1
+
 
 
 flutter_native_splash: 

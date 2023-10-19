@@ -40,4 +40,20 @@ class Meal {
       required this.isLactoseFree,
       required this.isVegan,
       required this.isVegetarian});
+
+  const Meal.ph({
+    this.id = "-1",
+    this.categories = const [],
+    this.title = "Palceholder",
+    this.imageUrl = "",
+    this.ingredients = const [],
+    this.steps = const [],
+    this.duration = 1,
+    this.complexity = Complexity.simple,
+    this.affordability = Affordability.affordable,
+    this.isGlutenFree = true,
+    this.isLactoseFree = true,
+    this.isVegan = true,
+    this.isVegetarian = true
+  });
 }
